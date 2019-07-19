@@ -1,0 +1,13 @@
+.header {
+  height: 2em;
+  background: linear-gradient(to top right, #ccccff, #cce6ff);
+  padding: 4rem;
+  border-radius: 30px;
+  font-size: 2vw;
+  margin-bottom: 1rem;
+}
+
+.nav {
+  font-size: 1vw;
+  margin-top: 1rem;
+}

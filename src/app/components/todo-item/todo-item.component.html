@@ -1,0 +1,8 @@
+<div [ngClass]="setContainerClasses()">
+  <div [ngClass]="setIdClasses()">{{ todo.id }}</div>
+  <div [ngClass]="setTextClasses()">{{ todo.title }}</div>
+  <div class="buttons">
+    <button (click)="onToggle(todo)">{{ todo.completed == true ? 'To-do' : 'Complete' }}</button>
+    <button (click)="onDelete(todo)">Delete</button>
+  </div>
+</div>
